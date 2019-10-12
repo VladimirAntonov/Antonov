@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inconsolata', monospace;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.main {
+    background-color: wheat;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.section {
+    width: 700px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.forh3 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(22, 52, 58);
+    color: peru;
+    font-size: 18px;
+}
+
+.crossedout {
+    color: blueviolet;
+    text-decoration: line-through;
+}
+
+.underlined {
+    color: violet;
+    text-decoration: underline;
+}
+
+.overline {
+    color: peru;
+    text-decoration: overline;
+}
+
+.bold {
+    color: tomato;
+    font-weight: 100;
+}
+
+.kyrsiv {
+    color: palevioletred;
+    font-style: oblique;
+}
+
+.anchor {
+    position: fixed;
+    right: 30px;
+    top: 10%;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    transition: 0.5s ease;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+a:hover {
+    color: #fff;
+    background: #008;
+}
+
+p.navigation {
+    font-size: 25px;
+}
+
+.image {
+    background-image: url("image.gif");
+    background-size: cover;
+    width: 700px;
+    height: 700px;
+}
