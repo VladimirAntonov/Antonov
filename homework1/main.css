@@ -90,8 +90,6 @@ p.navigation {
 }
 
 .image {
-    background-image: url("image.gif");
-    background-size: cover;
     width: 700px;
-    height: 700px;
+    height: auto;
 }
