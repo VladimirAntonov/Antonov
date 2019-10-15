@@ -5,11 +5,8 @@
 }
 
 .main {
-    background-color: antiquewhite;
-    background-color: wheat;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding-bottom: 20px;
+    background-color: aqua;
+    padding: 20px 0 20px;
 }
 
 .paragraph {
@@ -21,10 +18,31 @@
     text-align: center;
 }
 
-.headline {
+.headline-first {
     font-size: 25px;
+    color: blueviolet;
+    text-decoration: line-through;
 }
-
+.headline-second {
+    font-size: 25px;
+    color: violet;
+    text-decoration: underline;
+}
+.headline-third {
+    font-size: 25px;
+    color: peru;
+    text-decoration: overline;
+}
+.headline-fourth {
+    font-size: 25px;
+    color: tomato;
+    font-weight: 100;
+}
+.headline-fifth {
+    font-size: 25px;
+    color: palevioletred;
+    font-style: oblique;
+}
 .text {
     margin-top: 20px;
     border: 2px solid red;
@@ -33,31 +51,6 @@
     background-color: rgb(22, 52, 58);
     color: peru;
     font-size: 18px;
-}
-
-.crossedout {
-    color: blueviolet;
-    text-decoration: line-through;
-}
-
-.underlined {
-    color: violet;
-    text-decoration: underline;
-}
-
-.overline {
-    color: peru;
-    text-decoration: overline;
-}
-
-.bold {
-    color: tomato;
-    font-weight: 100;
-}
-
-.kyrsiv {
-    color: palevioletred;
-    font-style: oblique;
 }
 
 .anchor {
