@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-size: 20px;
 }
 
 body {
@@ -18,12 +19,12 @@ body {
   text-align: center;
   padding-bottom: 20px;
 }
-.hat {
-  display: flex;
-}
 .icon {
   height: 30px;
-  margin-right: 10px;
+}
+.iconhref {
+  text-decoration: none;
+  margin-left: 30px;
 }
 .menu {
   width: 100%;
@@ -31,6 +32,7 @@ body {
   justify-content: flex-end;
 }
 .hat {
+  display: flex;
   height: 120px;
   align-items: center;
 }
@@ -44,13 +46,10 @@ body {
   margin: auto;
   font-size: 20px;
   color: black;
-}
-.menu a {
-  text-decoration: none;
-  margin: 0 30px;
+  margin-left: 10px;
 }
 .preview {
-    margin: 20px 0;
+  margin: 20px 0 40px;
 }
 .bg {
   width: 100%;
@@ -61,7 +60,7 @@ body {
   filter: grayscale(50%) blur(2px);
 }
 .content {
-  height: 10px;
+  height: 0px;
   position: relative;
   top: -300px;
   left: auto;
@@ -72,15 +71,100 @@ body {
   text-shadow: silver 4px 4px 2px;
 }
 .content p {
-    font-size: 30px;
-    color: wheat;
-  }
-.paragraph{
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-    padding: 10px;
-    font-style: italic;
+  font-size: 30px;
+  color: wheat;
 }
-.paragraph span{
-    color: blueviolet;
+.paragraph {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding: 10px;
+  font-style: italic;
+}
+.paragraph span {
+  color: blueviolet;
+}
+.article {
+  display: flex;
+  align-items: stretch;
+  padding: 20px 0 50px;
+}
+.circle {
+  height: 327px;
+  flex-grow: 1;
+  width: 300px;
+  margin-right: 30px;
+  background-image: url("../img/Fern.jpg");
+  background-size: 1000px;
+  background-position: center;
+  border-radius: 50%;
+  border: 15px solid cornflowerblue;
+}
+.info {
+  width: 300px;
+  flex-grow: 20;
+  text-align: left;
+}
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 30px 0 20px;
+}
+.text {
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+.more {
+  float: right;
+  font-size: 18px;
+}
+.future {
+  margin: 20px 0;
+  border-top: 3px double #000;
+  text-align: left;
+}
+.futuretext {
+  background: aquamarine;
+  position: relative;
+  top: -18px;
+}
+.bold {
+  font-weight: bold;
+}
+.pictures {
+  display: flex;
+}
+.pictures div {
+  border: 1px solid gray;
+  height: 100px;
+  width: 25%;
+  overflow: hidden;
+  background-color: white;
+}
+.logo1 {
+  width: 100%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+.basement {
+  background-color: darkseagreen;
+  padding: 20px 0;
+}
+.working {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.signature {
+  height: 100%;
+}
+.signature p {
+  font-size: 14px;
+}
+.socials {
+  display: flex;
+  justify-content: flex-end;
 }
